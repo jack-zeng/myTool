@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="jquery.ZtPractical.js"></script>
+</head>
+<body>
+
+<h1></h1>
+<h2></h2>
+<script type="text/javascript">
+	
+	console.log("把时间转换成秒"+$.ZtTimeconversion("16:50:43"))
+	console.log("数字不够10的时候返回0+数字"+$.Ztzero(8))
+	$.Ztcountdown($.ZtTimeconversion("16:50:43"),"h1")
+    $.Ztdate("h2");
+    console.log("格式化数字"+$.ZtnumberFormat("13645456.333"))
+</script>
+
+	
+</body>
+</html>
